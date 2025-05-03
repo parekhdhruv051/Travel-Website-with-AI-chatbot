@@ -1,0 +1,1655 @@
+[
+  {
+    "id": "01",
+    "title": "Los Angeles",
+    "city": "USA",
+    "distance": 1500,
+    "address": "Los Angeles CA, USA",
+    "price": 77000,
+    "maxGroupSize": 20,
+    "desc": "a large and diverse city on the Pacific coast of California.",
+    "reviews": [
+      {
+        "name": "jhon doe",
+        "rating": 4.6
+      }
+    ],
+    "avgRating": 5,
+    "photo": "/tour-images/tour-img01.jpg",
+    "featured": true
+  },
+  {
+    "id": "02",
+    "title": "Bali",
+    "city": "Indonesia",
+    "distance": 800,
+    "address": "Bali, Indonesia",
+    "price": 25000,
+    "maxGroupSize": 20,
+    "desc": "a popular Indonesian island known for its vibrant culture, stunning natural beauty, and relaxed atmosphere.",
+    "reviews": [
+      {
+        "name": "jhon doe",
+        "rating": 4.6
+      }
+    ],
+    "avgRating": 4.5,
+    "photo": "/tour-images/tour-img02.jpg",
+    "featured": true
+  },
+  {
+    "id": "03",
+    "title": "Queenstown",
+    "city": "New Zealand",
+    "distance": 1500,
+    "address": "Queenstown, New Zealand",
+    "price": 95000,
+    "maxGroupSize": 20,
+    "desc": "its dramatic landscapes and the adventure capital of the world.",
+    "reviews": [
+      {
+        "name": "jhon doe",
+        "rating": 4.6
+      }
+    ],
+    "avgRating": 4.5,
+    "photo": "/tour-images/tour-img03.jpg",
+    "featured": true
+  },
+  {
+    "id": "04",
+    "title": "BangKok",
+    "city": "Thailand",
+    "distance": 1200,
+    "address": "Bangkok, Thailand",
+    "price": 18000,
+    "maxGroupSize": 20,
+    "desc": "a vibrant and bustling metropolis known for its blend of ancient temples and modern skyscrapers.",
+    "reviews": [
+      {
+        "name": "jhon doe",
+        "rating": 4.6
+      }
+    ],
+    "avgRating": 4.5,
+    "photo": "/tour-images/tour-img04.jpg",
+    "featured": true
+  },
+  {
+    "id": "05",
+    "title": "Dubai",
+    "city": "UAE",
+    "distance": 1000,
+    "address": "Dubai, UAE",
+    "price": 22000,
+    "maxGroupSize": 20,
+    "desc": "a modern, cosmopolitan city renowned for its architectural marvels, luxury shopping, and diverse cultural attractions.",
+    "reviews": [
+      {
+        "name": "jhon doe",
+        "rating": 4.6
+      }
+    ],
+    "avgRating": 4.5,
+    "photo": "/tour-images/tour-img05.jpg",
+    "featured": false
+  },
+  {
+    "id": "06",
+    "title": "Maldives island",
+    "city": "Maldives",
+    "distance": 500,
+    "address": "Maldives island",
+    "price": 28000,
+    "maxGroupSize": 20,
+    "desc": "The islands boast beautiful beaches, lagoons, and lush vegetation, including coconut palms and breadfruit trees.",
+    "reviews": [
+      {
+        "name": "jhon doe",
+        "rating": 4.6
+      }
+    ],
+    "avgRating": 4.5,
+    "photo": "/tour-images/tour-img06.jpg",
+    "featured": false
+  },
+  {
+    "id": "07",
+    "title": "Paris",
+    "city": "France",
+    "distance": 2500,
+    "address": "Paris, France",
+    "price": 65000,
+    "maxGroupSize": 20,
+    "desc": "Paris is located on the banks of the Seine River and is home to landmarks like the Eiffel Tower, the Louvre Museum, and the Arc de Triomphe.",
+    "reviews": [],
+    "avgRating": 4.5,
+    "photo": "/tour-images/tour-img07.jpg",
+    "featured": false
+  },
+  {
+    "id": "08",
+    "title": "Sydney",
+    "city": "Australia",
+    "distance": 2500,
+    "address": "Sydney NSW, Australia",
+    "price": 82000,
+    "maxGroupSize": 20,
+    "desc": "a stunning and vibrant city built around one of the most beautiful bays in the world with sparkling beaches and easy access to the heart of the city.",
+    "reviews": [],
+    "avgRating": 4.5,
+    "photo": "/tour-images/tour-img08.jpg",
+    "featured": false
+  },
+  {
+    "id": "09",
+    "title": "New York City",
+    "city": "USA",
+    "address": "New York NY, USA",
+    "distance": 100,
+    "price": 85000,
+    "maxGroupSize": 20,
+    "desc": "a vibrant and bustling metropolis, the largest and most populous city in the United States, located at the mouth of the Hudson River.",
+    "reviews": [],
+    "photo": "/tour-images/tour-img09.jpg",
+    "featured": false
+  },
+  {
+    "id": "10",
+    "title": "Hong Kong",
+    "city": "china",
+    "address": "Hong Kong",
+    "distance": 900,
+    "price": 27000,
+    "maxGroupSize": 20,
+    "desc": "The city is a blend of skyscrapers and traditional temples, offering diverse experiences from shopping and dining to nightlife.",
+    "reviews": [],
+    "photo": "/tour-images/tour-img10.jpg",
+    "featured": false
+  },
+  {
+    "id": "11",
+    "title": "Tokyo",
+    "city": "Japan",
+    "address": "Tokyo, Japan",
+    "distance": 1300,
+    "price": 53000,
+    "maxGroupSize": 20,
+    "desc": "Tokyo offers modern theater, opera and orchestral music as well as traditional kabuki and noh theater.",
+    "reviews": [],
+    "photo": "/tour-images/tour-img11.jpg",
+    "featured": false
+  },
+  {
+    "id": "12",
+    "title": "Gulmarg Srinagar Pahalgam",
+    "city": "Jammu and Kashmir",
+    "distance": 870,
+    "address": "Jammu and Kashmir",
+    "price": 17500,
+    "maxGroupSize": 20,
+    "desc": "The land of sparkling rivers and pristine lakes, of startling gardens and regal Chinar trees, Kashmir boasts of some of the most beautiful flowering meadows and snow-capped peaks.",
+    "reviews": [],
+    "avgRating": 4.7,
+    "photo": "/tour-images/tour-img12.jpg",
+    "featured": true,
+    "itinerary": [
+    {
+      "day": 1,
+      "description": [
+        "• Arrival in Srinagar & Shikara Ride",
+        "• Meet our representative at Srinagar airport, transfer to hotel/Houseboat.",
+        "• In the evening, shikara ride in world-famous Dal lake.",
+        "• Overnight stay at Srinagar."
+      ]
+      
+    },
+    {
+      "day": 2,
+      "description": [
+        "• Srinagar to Gulmarg",
+        "• After breakfast, transfer to Gulmarg via Tangmarg.",
+        "• Enroute visit Apple Orchards, Cherry Orchards, and Strawberry fields.",
+        "• In Gulmarg visit Khilanmarg and take a ride in the world's highest cable car 'Gondola' or enjoy your day playing golf in the world's highest golf course.",
+        "• Overnight stay at Gulmarg."
+      ]
+    },
+    {
+      "day": 3,
+      "description": [
+        "• Gulmarg to Pahalgam",
+        "• After breakfast, transfer to Pahalgam.",
+        "• Enroute visit Awantipora Ruins, Saffron Fields.",
+        "• In Pahalgam, visit Aru valley, Betaab valley (on your own cost).",
+        "• Overnight stay at Pahalgam."
+      ]
+    },
+    {
+      "day": 4,
+      "description": [
+        "• Pahalgam to Srinagar & Mughal Garden",
+        "• After breakfast, transfer to Srinagar, check-in to hotel.",
+        "• Afternoon, leave for local sightseeing of Srinagar City.",
+        "• Visit Mughal gardens: Chesma Shahi (Mughal Spring), Nishat (The Garden of Bliss), Shalimar (The Abode of Love).",
+        "• Overnight stay at Srinagar."
+      ]
+    },
+    {
+      "day": 5,
+      "description": [
+        "• Srinagar - Sonmarg - Srinagar",
+        "• After breakfast, transfer to Sonmarg for a day trip.",
+        "• Enroute see Hazratbal Shrine, Gagangir Tourist Village.",
+        "• The drive from Srinagar to Sonmarg is beautiful, passing through towns and villages, with scenic views of paddy fields and rivers.",
+        "• In Sonmarg, you can visit Thajwas Glacier (4 kms from Sonmarg, local taxi needed).",
+        "• Return to Srinagar in the evening.",
+        "• Overnight stay at Srinagar."
+      ]
+    },
+    {
+      "day": 6,
+      "description": [
+        "• Departure",
+        "• After breakfast, check out from hotel and drive to Srinagar Airport."
+      ]
+    }
+  ],
+  "inclusions": [
+    "• 1 night in houseboat in Dal lake",
+    "• 1 night in hotel in Gulmarg",
+    "• 1 night in hotel in Pahalgam",
+    "• 2 nights in hotel in Srinagar",
+    "• MAPI basis (Breakfast + Dinner)",
+    "• All sightseeing & transfers by NON AC Vehicle",
+    "• 01 shikara ride",
+    "• Vehicle used: Swift Dzire (2-4 Pax), Tavera (6 Pax)",
+    "• Inner line Permit",
+    "• Toll, tax, driver allowance",
+    "• Well-experienced driver",
+    "• Trip to Aru, Chandanwari & Betaab Valley",
+    "• Gondola & Pony ride",
+    "• Tickets to all gardens & monuments",
+    "• Snow Jeep transfers from Tangmarg to Gulmarg to Tangmarg",
+    "• All optional items",
+    "• Any personal expense",
+    "• Extra Adventure Activities (unless stated)",
+    "• Anything not mentioned in Inclusions",
+    "• Any extra expense due to change in weather, unavoidable circumstances, road blockage, or any natural calamity",
+    "• Any extra expense due to changes in plans from the client side"
+  ],
+  "exclusions": [
+    "• Personal Expenses",
+    "• Any cost arising due to natural calamities like landslides, road blocks, etc.",
+    "• Paragliding, Heater Charges, Tips, Pony Rides, Entry fees, snow suit rents, adventure activities at Solang Valley, 4x4 Vehicle",
+    "• Personal Expense of any kind, anything not specifically mentioned under 'Includes'",
+    "• Any additional meals or stays other than mentioned in itinerary",
+    "• Inter railway station transfers are not included",
+    "• 5% GST"
+  ],
+  "highlights": [
+      "• Shikara ride",
+      "• Apple Orchards",
+      "• Cherry Orchards",
+      "• Strawberry fields",
+      "• Gondola ride",
+      "• Awantipora Ruins",
+      "• Saffron Fields",
+      "• Aru valley",
+      "• Betaab valley (on your own cost)",
+      "• Mughal gardens",
+      "• Chesma Shahi",
+      "• Nishat",
+      "• Shalimar",
+      "• Hazratbal Shrine",
+      "• Gagangir Tourist Village",
+      "• Thajwas Glacier"
+    ],
+  "activities": [
+      "• Shikara ride on Dal Lake",
+      "• Visit Apple Orchards, Cherry Orchards, Strawberry fields",
+      "• Gondola ride at Gulmarg",
+      "• Golfing at the world's highest golf course",
+      "• Visit Awantipora Ruins",
+      "• Explore Saffron Fields",
+      "• Visit Aru valley and Betaab valley (on your own cost)",
+      "• Visit Mughal gardens: Chesma Shahi, Nishat, Shalimar",
+      "• Visit Hazratbal Shrine",
+      "• Explore Gagangir Tourist Village",
+      "• Visit Thajwas Glacier"
+    ],
+   "thingsToCarry": [
+    "• Water Bottle (Re-usable, for hydration)",
+    "• Personal Medication / First Aid (Bandages, Dettol, etc.)",
+    "• Sunglasses / Reading Glasses (For eye protection)",
+    "• Charger (For electronic devices)",
+    "• Power Bank (For charging devices on the go)",
+    "• Personal Documents & IDs (Aadhar Card, Driver's License)"
+  ]
+  },
+  {
+    "id": "13",
+    "title": "Manali Kasol Amritsar",
+    "city": "Himachal Pradesh",
+    "distance": 570,
+    "address": "Himachal Pradesh",
+    "price": 13500,
+    "maxGroupSize": 20,
+    "desc": "these three destinations offer a diverse range of experiences, from the natural beauty of Manali and Kasol to the cultural and religious significance of Amritsar.",
+    "reviews": [],
+    "avgRating": 4.8,
+    "photo": "/tour-images/tour-img13.jpg",
+    "featured": true,
+    "itinerary": [
+    {
+      "day": 1,
+      "description": [
+        "• Meet the Travelworld representative at the railway station in the morning.",
+        "• Contact details, timing, and pickup point will be sent via WhatsApp a day before departure.",
+        "• Enjoy a comfortable journey through picturesque landscapes as you head towards Jalandhar, the gateway to the adventure."
+      ]
+    },
+    {
+      "day": 2,
+      "description": [
+        "• After reaching Punjab, you will be asked to put your luggage into a tempo traveller, with all large bags tied on top.",
+        "• Separate out warm clothes and a pair of clothes for Amritsar in a small backpack.",
+        "• Attend the Wagah Border Indo-Pak historic ceremonial parade.",
+        "• Visit the Golden Temple and explore Amritsar market.",
+        "• Please note: Wagah Border visit is only included if you travel by 19411-SBIB DLPC EXP or Janmabhoomi Express-19107. If the train is delayed, you may miss the Wagah Border.",
+        "• Night drive to Manali."
+      ]
+    },
+    {
+      "day": 3,
+      "description": [
+        "• Arrive in Kasol early in the morning and check-in.",
+        "• Rest, have a hot breakfast, and freshen up.",
+        "• Visit Manikaran Gurudwara (located at 5700 ft) and take a sacred bath in its hot springs.",
+        "• Enjoy a hot meal for lunch at the camp and rest for a few hours.",
+        "• Explore Kasol Market and cafes. Take a short hike to Chalal village via Parvati Valley, and click photos at Chalal Bridge.",
+        "• Visit a musical cafe as you reach Chalal village.",
+        "• Return to camp for an exquisite dinner and camp near the Parvati River under the stars.",
+        "• Night stay: Riverside Camping in Kasol or Cottages.",
+        "• Meals: Breakfast, Lunch, Dinner included."
+      ]
+    },
+    {
+      "day": 4,
+      "description": [
+        "• After breakfast, depart for Bhrigu Base Camp.",
+        "• Leave all your luggage in Manali and trek with a small backpack (water, snacks, raincoat, warm clothing).",
+        "• Begin the Bhrigu Lake trek and stay at the Bhrigu Lake Base Camp at around 10,000 ft with mesmerizing views.",
+        "• Enjoy the endless meadows on the trek.",
+        "• Night stay: Tent stay at Bhrigu Campsite.",
+        "• Meals: Breakfast, pack lunch, Dinner included."
+      ]
+    },
+    {
+      "day": 5,
+      "description": [
+        "• Begin the day with a hike to the first ridge, which is an hour away.",
+        "• In April, May, and June, the trail is usually covered in snow.",
+        "• In July, as the snow melts, the trail turns from green to brown and white.",
+        "• Trek to 14,300 ft height to witness a splendid view of Bhrigu Lake.",
+        "• This day ends with a summit party.",
+        "• Night stay: Tent stay at Bhrigu Campsite.",
+        "• Meals: Breakfast, pack lunch, Dinner included."
+      ]
+    },
+    {
+      "day": 6,
+      "description": [
+        "• Early morning trek down from the advance base camp.",
+        "• Visit Solang Valley and Atal Tunnel (Asia's longest tunnel).",
+        "• Explore Mall Road and Hadimba Temple.",
+        "• Dinner and night stay at a cottage/tent in Kullu.",
+        "• Meals: Breakfast, Lunch, Dinner included."
+      ]
+    },
+    {
+      "day": 7,
+      "description": [
+        "• Have breakfast and go for outdoor rope adventure activities.",
+        "• After camp activities, head to the highest paragliding spot in Manali (self-paid).",
+        "• Experience a bird's-eye view of Kullu Valley.",
+        "• Enjoy an 8 km white-water rafting adventure (Complimentary, no refund if not done).",
+        "• Visit the Kullu shawl factory.",
+        "• In the evening, start the drive to Una/Jalandhar.",
+        "• Meals: Breakfast, Lunch included."
+      ]
+    },
+    {
+      "day": 8,
+      "description": [
+        "• Return train journey begins.",
+        "• Enjoy the last moments with group games and friendly connections.",
+        "• Reach your city the next day according to your train time.",
+        "• Please note: You may reach the railway station 3-4 hours before departure time."
+      ]
+    },
+    {
+      "day": 9,
+      "description": [
+        "• Arrival at Ahmedabad Junction (Time: 01:45 PM) or your city according to the train timing.",
+        "• The trip concludes with beautiful memories. Au revoir!"
+      ]
+    }
+  ],
+  "inclusions": [
+    "• All transfers by Tempo Traveller",
+    "• Round trip sleeper class train tickets (subject to availability)",
+    "• 1 night stay at Kasol, 1 night stay at Kullu Campsite, 2 night stay at Manali",
+    "• Bonfire, Music Party",
+    "• Trekking in Himalayas",
+    "• 5 Breakfasts, 5 Lunches & 5 Dinners (1 Dinner at Golden Temple which is at no cost)",
+    "• Trip Captain",
+    "• Rafting & Group Games",
+    "• Sightseeing & 'Dher Saari Masti'",
+    "• Rope Adventure activities at Kullu Campsite",
+    "• Toll, Parking, and Transport Taxes"
+  ],
+  "exclusions": [
+    "• Personal Expenses",
+    "• Any cost arising due to natural calamities like landslides, road blocks etc. to be borne by the client directly on the spot",
+    "• Paragliding, Heater Charges, Tips, Pony Rides, Entry fee, Snow suit rents, Trekking stick, Adventure activities at Solang Valley, 4*4 Vehicle",
+    "• Personal Expenses of any kind, anything not specifically mentioned under the head 'Includes'",
+    "• Any additional meals or stays other than mentioned in the itinerary",
+    "• Guide during train journey",
+    "• Inter-railway station transfers are not included"
+  ],
+  "highlights": [
+    "• Bhrigu Lake trek",
+    "• Mall Road, Hidimba Temple",
+    "• Solang Valley",
+    "• Visit Atal Tunnel (the world's longest tunnel above 10,000 ft)",
+    "• Visit the holy Golden Temple & Wagah Border in Amritsar",
+    "• Campfire",
+    "• Hiking through the forest",
+    "• Manikaran Gurudwara",
+    "• Chalal Village Trek",
+    "• Experience the Beauty of Parvati Valley",
+    "• Musical Night with Campfire",
+    "• 09 KM Long river Rafting (Included) & Paragliding from the Highest point in Kullu with a certified company"
+  ],
+  "activities": [
+    "• Snow Trekking",
+    "• Zipline",
+    "• Night Trek",
+    "• Team Games",
+    "• Campfire",
+    "• Sightseeing",
+    "• Rafting",
+    "• Paragliding"
+  ],
+  "thingsToCarry": [
+    "• Backpack (Main bag, preferably rucksack)",
+    "• Small backpack (to carry water bottle & personal stuff / 20-30 ltr)",
+    "• Refillable Water bottle",
+    "• Sports/Trekking shoes (comfortable for long hikes/treks)",
+    "• Socks (extra pair of woolen socks)",
+    "• Slippers/Sandals",
+    "• Original ID proof",
+    "• Lunchbox to Carry Packed Lunch on Trek",
+    "• Thermal Inners",
+    "• Pair of light clothes, as per requirement",
+    "• Winter jackets/Woolen/Sweater",
+    "• Raincoat/Poncho",
+    "• Winter cap/Headcover/Woolen cap",
+    "• Hat/Cap to cover your head in direct sunlight",
+    "• Handkerchief - towel - napkin",
+    "• Gloves",
+    "• Sunglasses",
+    "• Skin Moisturizer, Lip Balm, Sunscreen",
+    "• Personal Sanitary Items",
+    "• Camera, Power Bank, Charger, Earphones, Bluetooth speaker (depending on personal need)",
+    "• Personal Medication (if any)",
+    "• Polythene bags to store wet clothes/personal waste"
+  ]
+  },
+  {
+    "id": "14",
+    "title": "Kedarnath Badrinath Tungnath Rishikesh",
+    "city": "Uttarakhand",
+    "distance": 860,
+    "address": "Uttarakhand",
+    "price": 16500,
+    "maxGroupSize": 20,
+    "desc": "The combined journey of Kedarnath, Tungnath, and Badrinath offers a blend of spirituality and adventure in the Himalayas.",
+    "reviews": [],
+    "avgRating": 4.7,
+    "photo": "/tour-images/tour-img14.jpg",
+    "featured": true,
+    "itinerary": [
+    {
+      "day": 1,
+      "description": [
+        "• Start your train journey according to the scheduled train timings from your city to Delhi.",
+        "• Enjoy a comfortable journey through picturesque landscapes as you head towards Delhi, the gateway to our adventure.",
+        "• Only people aged 12 to 45 years are allowed to join this trip as it is a complete trekking & backpacking itinerary."
+      ]
+    },
+    {
+      "day": 2,
+      "description": [
+        "• Arrival at Delhi from your city.",
+        "• Explore Delhi on your own (We will suggest daytime budget stays and freshen-up places in Delhi).",
+        "• Meeting at the pickup location at 11:00 pm.",
+        "• Overnight journey by Tempo Traveller/bus.",
+        "• Pick up: Kashmiri Gate (Swaminarayan Mandir - Civil Lines metro).",
+        "• Departure time: 11:00 pm, Distance: 230 km | 6 hours.",
+        "• Night drive to Rishikesh."
+      ]
+    },
+    {
+      "day": 3,
+      "description": [
+        "• Arrive at Haridwar and visit the morning Aarti; later head to Rishikesh.",
+        "• Take a dip in the Ganga river and freshen up at the Ghat.",
+        "• Morning Ganga Aarti at Har Ki Pauri Ghat.",
+        "• Breakfast at Haridwar or Rishikesh as per time.",
+        "• Explore Rishikesh with options such as River Rafting & Cliff Jumping, Bungee jumping, Flying Fox, and Café hopping near river ghats.",
+        "• Ganga Aarti at Shatrughan Ghat or Triveni Ghat.",
+        "• Stay: Hotel/Tent in Rishikesh.",
+        "• Breakfast and Dinner Included."
+      ]
+    },
+    {
+      "day": 4,
+      "description": [
+        "• Early breakfast and leave for Phata/Sitapur.",
+        "• Visit Devprayag, Rudraprayag, and Dharidevi temple.",
+        "• Reach Phata late evening, have dinner, and rest.",
+        "• Distance: 210 km || 7-8 Hrs.",
+        "• Stay: Phata/Guptkashi.",
+        "• Breakfast and Dinner Included."
+      ]
+    },
+    {
+      "day": 5,
+      "description": [
+        "• Start early in the morning, leave extra luggage at the hotel.",
+        "• Sonprayag to Gaurikund by local jeep.",
+        "• Start the 21 km trek towards Kedarnath Dham (8-10 hours).",
+        "• Enjoy scenic beauty throughout the trek.",
+        "• Reach Kedarnath Temple, check in to the hotel room near the temple.",
+        "• Evening Aarti darshan at Kedarnath Temple.",
+        "• Stay: Kedarnath.",
+        "• Breakfast and Dinner Included."
+      ]
+    },
+    {
+      "day": 6,
+      "description": [
+        "• Early morning darshan and aarti.",
+        "• Explore surrounding areas like Bhimshila, Adi Shankaracharya Statue, Bhairav Temple.",
+        "• Trek down towards Gaurikund (4-6 hours).",
+        "• Reach Sitapur/Sonprayag by evening and travel back to Guptkashi.",
+        "• Stay: Phata/Guptkashi.",
+        "• Breakfast and Dinner Included."
+      ]
+    },
+    {
+      "day": 7,
+      "description": [
+        "• Breakfast and drive towards Chopta.",
+        "• Trek towards the world's highest Shiva temple at Tungnath (4-5 hours).",
+        "• Enjoy majestic views of the Himalayas, including Chaukhamba and Kedarnath peaks.",
+        "• Return to the campsite for dinner and rest.",
+        "• Stay: Chopta.",
+        "• Breakfast and Dinner Included."
+      ]
+    },
+    {
+      "day": 8,
+      "description": [
+        "• Early morning drive towards Badrinath (6-7 hours).",
+        "• Visit Mana Village, Saraswati River, and Bhim Pul.",
+        "• Evening darshan at Badrinath Temple.",
+        "• Stay: Badrinath/Pandukeshwar.",
+        "• Breakfast and Dinner Included."
+      ]
+    },
+    {
+      "day": 9,
+      "description": [
+        "• Early breakfast and departure towards Delhi.",
+        "• En route, visit Nand Prayag and Karna Prayag.",
+        "• Scenic drive through the Garhwal Himalayas.",
+        "• Reach Rishikesh in the evening and relax before the onward journey to Delhi.",
+        "• Overnight journey to Delhi.",
+        "• Breakfast Included."
+      ]
+    },
+    {
+      "day": 10,
+      "description": [
+        "• Early morning arrival in Delhi (around 5:00-6:00 AM).",
+        "• Drop-off at the designated location (Kashmiri Gate).",
+        "• The trip concludes with unforgettable memories of Kedarnath, Tungnath, Badrinath & the Himalayas.",
+        "• Travelers proceed with their return journey via train/flight as per their schedule."
+      ]
+    },
+    {
+      "day": 11,
+      "description": [
+        "• Arrival in your city as per your train schedule."
+      ]
+    }
+  ],
+  "inclusions": [
+    "• All transfers by Tempo Traveller/bus from Delhi.",
+    "• Round-trip train tickets.",
+    "• 6-night accommodation on sharing basis as per the itinerary.",
+    "• Sightseeing as per the itinerary.",
+    "• 7 breakfasts & 6 dinners.",
+    "• All sightseeing mentioned in the itinerary.",
+    "• Trip Captain.",
+    "• 24x7 Support throughout the trip.",
+    "• Toll, Parking, and Transport Taxes."
+  ],
+  "exclusions": [
+    "• Personal expenses.",
+    "• Any cost arising due to natural calamities like landslides, roadblocks, etc., to be borne by the client directly on the spot.",
+    "• Personal expenses of any kind, anything not specifically mentioned under 'Includes'.",
+    "• Any additional meals or stays other than those mentioned in the itinerary.",
+    "• Inter-railway station transfers are not included.",
+    "• Any local transportation not mentioned (e.g., Sonprayag to Gaurikund jeep - 70 INR, local airport or railway station pick-up and drop)."
+  ],
+  "highlights": [
+    "• Har Ki Pauri Ghat - Haridwar.",
+    "• Devprayag - Bhagirathi & Alaknanda river confluence.",
+    "• Rudraprayag - Mandakini & Alaknanda river confluence.",
+    "• Dharidevi Temple - A beautiful temple of Goddess Kali in the middle of the river.",
+    "• Vishwanath Temple - Ancient Shiva temple in Guptkashi.",
+    "• Gaurikund - Hot water spring beside Mandakini river.",
+    "• Kedarnath Dham - 21 km trek.",
+    "• Bhairav Temple at Kedarnath.",
+    "• Chopta - Beautiful meadows.",
+    "• Tungnath Temple.",
+    "• Badrinath Temple.",
+    "• Tapt Kund - Hot water spring besides Alaknanda river.",
+    "• Mana Village - Saraswati River, Vyas Gufa, Bheem Pul.",
+    "• Nand Prayag, Karna Prayag.",
+    "• Rishikesh - Ram Jhula to Laxman Jhula.",
+    "• Rishikesh Ganga Aarti.",
+    "• Beatles Ashram, Parmarth Niketan Ashram.",
+    "• River Rafting."
+  ],
+  "thingsToCarry": [
+    "• Backpack (Main bag, preferably rucksack).",
+    "• Small backpack (to carry water bottle & personal stuff / 20-30 ltr).",
+    "• Refillable water bottle.",
+    "• Sports/Trekking shoes (comfortable for long hikes/treks).",
+    "• Socks (extra pair of woolen socks).",
+    "• Slippers/Sandals.",
+    "• Original ID proof.",
+    "• Thermal inners.",
+    "• Pair of light clothes, as per requirement.",
+    "• Winter jackets/Woolen/Sweater.",
+    "• Raincoat/Poncho (in case of snow/rain).",
+    "• Winter cap/Headcover/Woolen cap.",
+    "• Hat/Cap to cover your head in direct sunlight.",
+    "• Handkerchief, towel, napkin.",
+    "• Gloves.",
+    "• Sunglasses.",
+    "• Skin moisturizer, lip balm, sunscreen, etc.",
+    "• Personal sanitary items.",
+    "• Camera, power bank, charger, earphones, Bluetooth speaker (depending on personal need).",
+    "• Personal medication (if any).",
+    "• Polythene bags to store wet clothes/personal waste."
+  ]
+  },
+  {
+    "id": "15",
+    "title": "Mathura Agra Ayodhya Varanasi",
+    "city": "Uttar pradesh",
+    "distance": 1500,
+    "address": "Uttar pradesh",
+    "price": 15500,
+    "maxGroupSize": 20,
+    "desc": "These form a significant spiritual and cultural hub in northern India, offering a rich tapestry of history, religion, and art..",
+    "reviews": [],
+    "avgRating": 4.6,
+    "photo": "/tour-images/tour-img15.jpg",
+    "featured": false,
+    "itinerary": [
+    {
+      "day": 1,
+      "description": [
+        "• Morning 10 AM approx pick up and start your journey from Delhi/Mathura to Mathura, which is approximately a 3-hour drive.",
+        "• Upon arrival in Mathura, check-in at your hotel and freshen up.",
+        "• Visit Banke Bihari Temple.",
+        "• In the evening, witness the light & sound show at Prem Mandir.",
+        "• Overnight stay at Mathura/Agra.",
+        "• Dinner."
+      ]
+    },
+    {
+      "day": 2,
+      "description": [
+        "• After breakfast, checkout and visit Shri Krishna Janmabhoomi & Shri Dwarkadish Temple.",
+        "• Depart for Agra, a journey of around 2 hours.",
+        "• Visit Taj Mahal, the symbol of love, with detailed exploration of the stunning Mughal architecture and gardens.",
+        "• Afternoon, depart for Lucknow, a journey of around 4 hours.",
+        "• Overnight stay in Lucknow.",
+        "• Dinner."
+      ]
+    },
+    {
+      "day": 3,
+      "description": [
+        "• After breakfast, checkout and visit Saryu Nadi and Ram Janmabhoomi.",
+        "• Explore other places of interest like Hanuman Garhi and Kanak Bhawan.",
+        "• Later leave for Varanasi, a drive of approximately 5 hours.",
+        "• Check-in at your hotel in Varanasi.",
+        "• Overnight stay in Varanasi.",
+        "• Dinner."
+      ]
+    },
+    {
+      "day": 4,
+      "description": [
+        "• After breakfast, take a drive through BHU, Sankat Mochan Hanuman Mandir, and Durga Kund Temple.",
+        "• Take a boat ride along the Ganges River from Assi Ghat to Dashashwamedh Ghat.",
+        "• Visit the Kashi Vishwanath Temple, one of the holiest temples dedicated to Lord Shiva.",
+        "• In the evening, experience the mesmerizing Ganga Aarti at the famous Dashashwamedh Ghat.",
+        "• Later, explore the bustling markets and enjoy the local cuisine.",
+        "• Overnight stay at Varanasi.",
+        "• Dinner."
+      ]
+    },
+    {
+      "day": 5,
+      "description": [
+        "• After breakfast, checkout and visit Sarnath, where Lord Buddha gave his first sermon, and the Sarnath Archaeological Museum.",
+        "• Drive to Prayagraj, which takes about 2-3 hours.",
+        "• Explore the historic Anand Bhawan.",
+        "• If time permits, visit the Khusro Bagh and Patalpuri Temple.",
+        "• Visit the Triveni Sangam, the confluence of the Ganges, Yamuna, and mythical Saraswati rivers.",
+        "• 10:00 PM: Overnight journey to Delhi.",
+        "• Dinner."
+      ]
+    },
+    {
+      "day": 6,
+      "description": [
+        "• Morning, reach Delhi.",
+        "• Drop at Station.",
+        "• Trip ends with wonderful memories of the trip."
+      ]
+    }
+  ],
+  "highlights": [
+    "• Banke Bihari Temple in Mathura",
+    "• Light & Sound Show at Prem Mandir",
+    "• Shri Krishna Janmabhoomi & Shri Dwarkadish Temple",
+    "• Taj Mahal (UNESCO World Heritage site)",
+    "• Ram Janmabhoomi and Saryu Nadi in Ayodhya",
+    "• Kashi Vishwanath Temple in Varanasi",
+    "• Ganga Aarti at Dashashwamedh Ghat",
+    "• Sarnath, the Buddhist pilgrimage site",
+    "• Triveni Sangam in Prayagraj",
+    "• Anand Bhawan and Khusro Bagh",
+    "• Agra Fort and Mehtab Bagh"
+  ],
+  "activities": [
+    "• Visit and darshan at Banke Bihari Temple.",
+    "• Witness the light & sound show at Prem Mandir.",
+    "• Explore the Taj Mahal, including its history, gardens, and architectural features.",
+    "• Explore Shri Krishna Janmabhoomi & Shri Dwarkadish Temple in Mathura.",
+    "• Take a boat ride on the Ganges River from Assi Ghat to Dashashwamedh Ghat in Varanasi.",
+    "• Visit Sarnath and the Archaeological Museum.",
+    "• Attend the Ganga Aarti at Dashashwamedh Ghat in Varanasi.",
+    "• Visit the historic Anand Bhawan and Triveni Sangam in Prayagraj.",
+    "• Explore the Agra Fort and Mehtab Bagh for views of the Taj Mahal."
+  ],
+  "inclusions": [
+    "• All parking and permit charges.",
+    "• All transport & toll taxes.",
+    "• Hotel accommodation as per itinerary.",
+    "• Meals as per itinerary (Breakfast and Dinner).",
+    "• Sightseeing as per itinerary.",
+    "• Assistance on arrival."
+  ],
+  "exclusions": [
+    "• Anything not mentioned in the inclusions.",
+    "• Cost for services which is not mentioned in 'Inclusions'.",
+    "• Cost of additional activities other than what is included, porterages, tips, etc.",
+    "• Cost of amendment/addition in the itinerary.",
+    "• Payment for services provided on a personal basis."
+  ],
+  "thingsToCarry": [
+    "• Water Bottle (Re-usable, for hydration)",
+    "• Personal Medication / First Aid (Bandages, Dettol, etc.)",
+    "• Sunglasses / Reading Glasses (For eye protection)",
+    "• Charger (For electronic devices)",
+    "• Power Bank (For charging devices on the go)",
+    "• Personal Documents & IDs (Aadhar Card, Driver's License)"
+  ]
+  },
+  {
+    "id": "16",
+    "title": "Udaipur Jaipur Jaisalmer Mount Abu",
+    "city": "Rajasthan",
+    "distance": 1500,
+    "address": "Rajasthan",
+    "price": 18500,
+    "maxGroupSize": 20,
+    "desc": "It offers a multifaceted experience, encompassing the romantic lakes and palaces of Udaipur, the vibrant city and forts of Jaipur, the desert landscape and Golden Fort of Jaisalmer, and the natural beauty and respite from the heat of Mount Abu.",
+    "reviews": [],
+    "avgRating": 4.6,
+    "photo": "/tour-images/tour-img16.jpg",
+    "featured": false,
+    "itinerary": [
+      {
+        "day": 1,
+        "description": [
+          "• Reach Jaipur.",
+          "• Pick up from Jaipur Station and transfer to hotel (early check-in subject to availability).",
+          "• Check-in and rest in leisure.",
+          "• Late afternoon, proceed to visit Birla Mandir, City Park, Patrika Gate.",
+          "• Return back to hotel.",
+          "• Dinner.",
+          "• Overnight stay at hotel."
+        ]
+      },
+      {
+        "day": 2,
+        "description": [
+          "• Breakfast.",
+          "• Proceed to visit Jaigarh Fort, Amer Fort, Jal Mahal.",
+          "• Return back to hotel.",
+          "• Dinner.",
+          "• Overnight stay at hotel."
+        ]
+      },
+      {
+        "day": 3,
+        "description": [
+          "• Breakfast.",
+          "• Check out from hotel.",
+          "• Proceed to visit Albert Hall Museum, City Palace, Hawa Mahal, Jantar Mantar.",
+          "• In the evening, proceed to Jaisalmer (Overnight Journey)."
+        ]
+      },
+      {
+        "day": 4,
+        "description": [
+          "• Reach Jaisalmer and transfer to hotel (for freshen up).",
+          "• After breakfast and freshen up, proceed to visit Kuldhara Village (Haunted Village), Natural Oasis, Khaba Fort.",
+          "• Proceed to Sam Dunes Camps.",
+          "• Check-in to camp.",
+          "• Enjoy Jeep Safari & Camel safari.",
+          "• Dinner.",
+          "• Stay at Sam Dunes Camps."
+        ]
+      },
+      {
+        "day": 5,
+        "description": [
+          "• Breakfast and check-out from camps.",
+          "• Visit Jaisalmer Fort, Gadisar Lake, Salem Singh ki Haveli, Patwa ki Haveli, Tajia Tower, War Museum.",
+          "• Transfer to Jaisalmer Bus Stand.",
+          "• Evening bus from Jaisalmer to Udaipur (Overnight Journey)."
+        ]
+      },
+      {
+        "day": 6,
+        "description": [
+          "• Morning reach at Udaipur and transfer to hotel.",
+          "• After breakfast and freshen up, proceed to visit Saheliyon ki Bari, Fateh Sagar Lake, City Palace, Jagdish Temple, Lake Pichola, Gangaur Ghat.",
+          "• Return back to hotel.",
+          "• Dinner.",
+          "• Overnight stay at hotel."
+        ]
+      },
+      {
+        "day": 7,
+        "description": [
+          "• Breakfast.",
+          "• Check out and proceed to visit Mount Abu.",
+          "• Visit Dilwara Jain Temple, Nakki Lake, Toad Rock, Mount Abu Market, and Sunset Point (if time permits).",
+          "• Drop at Abu Road/Udaipur."
+        ]
+      }
+    ],
+    "highlights": [
+      "• Visit to the iconic Birla Mandir and Patrika Gate in Jaipur.",
+      "• Explore the historical Jaigarh Fort and Amer Fort with stunning views of the Pink City.",
+      "• Visit the serene Jal Mahal, a palace on the water in the middle of the Man Sagar Lake.",
+      "• Visit Albert Hall Museum, Hawa Mahal, and Jantar Mantar in Jaipur, showcasing Mughal and Rajput architecture.",
+      "• Discover the haunted Kuldhara Village and explore Khaba Fort.",
+      "• Camel safari and Jeep safari in the desert near Sam Dunes, Jaisalmer.",
+      "• Visit the historic Jaisalmer Fort and Patwa ki Haveli.",
+      "• Explore the beautiful Saheliyon ki Bari and Fateh Sagar Lake in Udaipur.",
+      "• Visit the famous Dilwara Jain Temple and Nakki Lake in Mount Abu."
+    ],
+    "activities": [
+      "• Jeep safari and Camel safari in Sam Dunes Camps, Jaisalmer.",
+      "• Explore the bustling markets and local cuisine in Jaipur, Udaipur, and Mount Abu.",
+      "• Boating on Lake Pichola in Udaipur.",
+      "• Visit the ancient Jain Temples in Mount Abu, especially the Dilwara Jain Temple.",
+      "• Enjoy a panoramic view of Jaisalmer from the Jaisalmer Fort and visit historical havelis.",
+      "• Sunset view at the famous Sunset Point in Mount Abu."
+    ],
+    "inclusions": [
+      "• All inter-transfer & sightseeing as per itinerary by suitable AC vehicle.",
+      "• All parking and permit charges.",
+      "• All transport & toll taxes.",
+      "• Bonfire and camp stay with activities.",
+      "• Hotel accommodation as per itinerary.",
+      "• Meals as per itinerary (Breakfast and Dinner).",
+      "• Sightseeing as per itinerary."
+    ],
+    "exclusions": [
+      "• Anything not mentioned in the inclusions.",
+      "• Cost of additional activities other than what is included, porterages, tips, etc.",
+      "• Cost of amendment/addition in the itinerary.",
+      "• Cost of early arrival/late departure.",
+      "• Entry fee to any monument, park, museum, monastery, or any other visiting places.",
+      "• Payment for services provided on personal basis.",
+      "• Personal expenses on items such as laundry, soft & hard drinks, bottled water, incidentals, etc."
+    ],
+    "thingsToCarry": [
+    "• Water Bottle (Re-usable, for hydration)",
+    "• Personal Medication / First Aid (Bandages, Dettol, etc.)",
+    "• Sunglasses / Reading Glasses (For eye protection)",
+    "• Charger (For electronic devices)",
+    "• Power Bank (For charging devices on the go)",
+    "• Personal Documents & IDs (Aadhar Card, Driver's License)"
+  ]
+  },
+  {
+    "id": "17",
+    "title": "Munnar Thekkady Alleppey Kovalam",
+    "city": "Kerala",
+    "distance": 1050,
+    "address": "Kerala",
+    "price": 17500,
+    "maxGroupSize": 20,
+    "desc": "It offers a diverse Kerala experience, from lush hills and tea plantations to wildlife sanctuaries and serene backwaters.",
+    "reviews": [],
+    "avgRating": 4.9,
+    "photo": "/tour-images/tour-img17.jpg",
+    "featured": true,
+    "itinerary": [
+    {
+      "day": 1,
+      "description": [
+        "• Pick up from Ernakulam Station at 9:00 AM and Cochin Airport at 10:00 AM.",
+        "• On the way, visit Valara, Cheeyappara waterfalls, and Spice Plantations.",
+        "• Check-in to hotel.",
+        "• Dinner.",
+        "• Overnight stay at hotel."
+      ]
+    },
+    {
+      "day": 2,
+      "description": [
+        "• Breakfast.",
+        "• Proceed for sightseeing: Mattupetty Dam, Echo Point, Kundala Dam, Eravikulam National Park (as per govt guidelines), Rose Garden.",
+        "• Shopping.",
+        "• Dinner.",
+        "• Overnight stay at Munnar."
+      ]
+    },
+    {
+      "day": 3,
+      "description": [
+        "• Breakfast and checkout around 8:00 AM.",
+        "• Drive to Thekkady.",
+        "• Afternoon: View cruise on the Periyar Lake (by your own). Watch wildlife including elephants, monkeys, deer, wild boar, etc.",
+        "• In the evening, take an elephant ride at Periyar Wildlife.",
+        "• Check-in to hotel.",
+        "• Dinner.",
+        "• Overnight stay at Thekkady."
+      ]
+    },
+    {
+      "day": 4,
+      "description": [
+        "• Breakfast.",
+        "• Checkout and proceed to Alleppey.",
+        "• Visit Alleppey backwaters.",
+        "• Take a Shikara/Houseboat ride (Optional - Own Cost) through the rich and splendid backwaters for a unique experience.",
+        "• Dinner.",
+        "• Overnight stay at Alleppey.",
+        "• (If you select Houseboat Stay, lunch and backwater ride are included)."
+      ]
+    },
+    {
+      "day": 5,
+      "description": [
+        "• Breakfast.",
+        "• Checkout and proceed for sightseeing: Jatayu Earth Center (World's Largest Bird Sculpture based on Ramayana character Jatayu).",
+        "• Visit Varkala Beach and Kovalam Beach (If time permits).",
+        "• Dinner.",
+        "• Overnight stay at Kovalam/Trivandrum."
+      ]
+    },
+    {
+      "day": 6,
+      "description": [
+        "• After breakfast, proceed for Kovalam Beach, Azhimala Siva Temple, and Trivandrum city tour.",
+        "• Visit Trivandrum Museum and Shri Padmanabhaswamy Temple.",
+        "• Evening proceed to Cochin.",
+        "• Late night reach at Cochin and drop at Ernakulam Station.",
+        "• Trip ends with wonderful memories of Kerala."
+      ]
+    }
+  ],
+  "highlights": [
+    "• Valara Waterfalls",
+    "• Cheeyappara Waterfalls",
+    "• Spice Plantations",
+    "• Mattupetty Dam",
+    "• Echo Point",
+    "• Kundala Dam",
+    "• Eravikulam National Park",
+    "• Rose Garden",
+    "• Periyar Lake Cruise",
+    "• Elephant Ride at Periyar Wildlife",
+    "• Alleppey Backwaters",
+    "• Shikara/Houseboat Ride",
+    "• Jatayu Earth Center",
+    "• Varkala Beach",
+    "• Kovalam Beach",
+    "• Azhimala Siva Temple",
+    "• Trivandrum Museum",
+    "• Shri Padmanabhaswamy Temple"
+  ],
+  "activities": [
+    "• Sightseeing at Valara and Cheeyappara waterfalls",
+    "• Visit Spice Plantations",
+    "• Visit Mattupetty Dam, Echo Point, and Kundala Dam",
+    "• Explore Eravikulam National Park",
+    "• Visit Rose Garden",
+    "• Wildlife cruise on Periyar Lake",
+    "• Elephant ride at Periyar Wildlife",
+    "• Visit Alleppey backwaters",
+    "• Optional: Shikara/Houseboat ride",
+    "• Visit Jatayu Earth Center",
+    "• Explore Varkala Beach and Kovalam Beach",
+    "• Trivandrum city tour",
+    "• Visit Trivandrum Museum and Shri Padmanabhaswamy Temple"
+  ],
+  "inclusions": [
+    "• All inter-transfer & sightseeing as per the itinerary by Suitable AC Vehicle.",
+    "• All parking and permit charges.",
+    "• All transport & toll taxes.",
+    "• Assistance on arrival.",
+    "• Hotel accommodation.",
+    "• Meals as per itinerary.",
+    "• Sightseeing."
+  ],
+  "exclusions": [
+    "• Anything not mentioned in the inclusions.",
+    "• Cost for services not mentioned in 'Inclusions'.",
+    "• Cost of additional activities other than what is included, porterages, tips, etc.",
+    "• Cost of amendment/addition in the itinerary.",
+    "• Entry fee to any monument, park, museum, monastery, or any other visiting places.",
+    "• Expenses incurred due to mishap, landslide, strikes, political unrest, etc.",
+    "• Heaters in hotels.",
+    "• Payment for service provided on a personal basis.",
+    "• Personal expenses on items such as laundry, soft & hard drinks, bottled water, incidentals, etc."
+  ],
+  "thingsToCarry": [
+    "• Water Bottle (Re-usable, for hydration)",
+    "• Personal Medication / First Aid (Bandages, Dettol, etc.)",
+    "• Sunglasses / Reading Glasses (For eye protection)",
+    "• Charger (For electronic devices)",
+    "• Power Bank (For charging devices on the go)",
+    "• Personal Documents & IDs (Aadhar Card, Driver's License)"
+  ]
+  },
+  {
+    "id": "18",
+    "title": "Saurashtra Darshan",
+    "city": "Gujarat",
+    "distance": 240,
+    "address": "Saurashtra, Gujarat",
+    "price": 12500,
+    "maxGroupSize": 20,
+    "desc": "It's known for its blend of bustling cities and peaceful villages, including sacred temples, architectural sites, and beautiful beaches.",
+    "reviews": [],
+    "avgRating": 4.7,
+    "photo": "/tour-images/tour-img18.jpg",
+    "featured": false,
+    "itinerary": [
+    {
+      "day": 1,
+      "description": [
+        "• Proceed to the sacred town of Dwarka.",
+        "• Visit Dwarkadeesh Temple.",
+        "• Take a holy dip in Gomti river.",
+        "• Overnight stay at the hotel."
+      ]
+    },
+    {
+      "day": 2,
+      "description": [
+        "• Leave in the morning for Nageshwar Jyotirling.",
+        "• Visit Gopi Talav and Bet Dwarka.",
+        "• On return, visit Rukmani Temple.",
+        "• Visit coastal temples.",
+        "• Attend evening Aarti at Dwarkadeesh Temple.",
+        "• Overnight stay at the hotel."
+      ]
+    },
+    {
+      "day": 3,
+      "description": [
+        "• Depart to Porbandar in the morning (75 km/1.5 hrs).",
+        "• Visit Kirti Mandir (birthplace of Mahatma Gandhi).",
+        "• Visit Sudama Temple (only one in the world).",
+        "• Proceed to Somnath (130 km/2.5 hrs).",
+        "• Visit Bhalka Tirth, Triveni Sangam, Geeta Mandir, Chopati, and Somnath Temple.",
+        "• Attend evening Aarti and Light & Sound Show.",
+        "• Overnight stay at the hotel."
+      ]
+    },
+    {
+      "day": 4,
+      "description": [
+        "• Proceed to beach town Diu after breakfast (100 km/2 hrs).",
+        "• Visit St. Paul's Church, Diu Museum, and Diu Fort.",
+        "• Evening at leisure to relax on the beach.",
+        "• Overnight stay at the hotel."
+      ]
+    },
+    {
+      "day": 5,
+      "description": [
+        "• Proceed to Sasangir after breakfast (110 km/2 hrs).",
+        "• Enjoy open jeep safari at Gir National Park (booking at girlion.in).",
+        "• Visit Gir Interpretation Zone at Devaliya (Closed on Wednesday).",
+        "• Overnight stay at the hotel."
+      ]
+    },
+    {
+      "day": 6,
+      "description": [
+        "• Proceed to Ahmedabad after breakfast (380 km/8 hrs).",
+        "• Evening free for shopping at Law Garden or visit Kankaria Lake (Closed on Monday).",
+        "• Overnight stay at the hotel."
+      ]
+    },
+    {
+      "day": 7,
+      "description": [
+        "• Check out from hotel after breakfast.",
+        "• Visit Adalaj Stepwell and Akshardham Temple (Closed on Monday).",
+        "• Visit Gandhi Ashram.",
+        "• Drop at Railway Station or Airport."
+      ]
+    }
+  ],
+  "highlights": [
+    "• Dwarkadeesh Temple and holy dip in Gomti River.",
+    "• Nageshwar Jyotirling, Bet Dwarka, and Rukmani Temple.",
+    "• Kirti Mandir and Sudama Temple in Porbandar.",
+    "• Somnath Temple Aarti and Light & Sound Show.",
+    "• Beach relaxation and Diu Fort exploration.",
+    "• Open jeep safari in Gir National Park.",
+    "• Visit to Kankaria Lake and Akshardham Temple.",
+    "• Gandhi Ashram experience in Ahmedabad."
+  ],
+  "activities": [
+    "• Evening Aarti at Dwarkadeesh and Somnath Temples.",
+    "• Beach relaxation and sightseeing in Diu.",
+    "• Jeep Safari in Gir National Park.",
+    "• Shopping at Law Garden Market.",
+    "• Sightseeing at heritage monuments like Adalaj Stepwell and Kirti Mandir.",
+    "• Visit to museums and interpretation zones."
+  ],
+  "inclusions": [
+    "• Accommodation at standard hotels on twin sharing basis.",
+    "• Breakfast at hotel.",
+    "• All transfers and sightseeing by private vehicle.",
+    "• Jeep Safari arrangement (charges extra, booking required).",
+    "• All toll, parking, and driver allowances.",
+    "• Applicable taxes."
+  ],
+  "exclusions": [
+    "• Airfare or train tickets.",
+    "• Jeep Safari entry fee (to be paid directly).",
+    "• Lunch, dinner, and other meals not mentioned.",
+    "• Personal expenses such as tips, laundry, and telephone calls.",
+    "• Entry tickets to monuments and attractions.",
+    "• Anything not mentioned in inclusions."
+  ],
+  "thingsToCarry": [
+    "• Comfortable clothes and walking shoes.",
+    "• Sunblock and sunglasses.",
+    "• Water bottle and snacks.",
+    "• Identity proof (Aadhar card, voter ID, etc.).",
+    "• Personal medication and first aid kit.",
+    "• Camera and power bank."
+  ]
+  },
+  {
+    "id": "19",
+    "title": "Andaman & Nicobar Islands",
+    "city": "Andaman and Nicobar islands",
+    "distance": 3500,
+    "address": "Andaman and Nicobar islands",
+    "price": 20000,
+    "maxGroupSize": 20,
+    "desc": "The islands also boast a rich cultural heritage, with indigenous tribes and festivals celebrating diverse traditions.",
+    "reviews": [],
+    "avgRating": 4.8,
+    "photo": "/tour-images/tour-img19.jpg",
+    "featured": true,
+    "itinerary": [
+    {
+      "day": 1,
+      "description": [
+        "• Arrival at Port Blair by flight.",
+        "• Meet and greet by our representative at the airport, and transfer to hotel.",
+        "• Rest and relax in the hotel.",
+        "• In the evening, attend the enthralling Sound and Light Show at Cellular Jail, where the heroic saga of India's freedom struggle is brought alive.",
+        "• Post-show, return to hotel."
+      ]
+    },
+    {
+      "day": 2,
+      "description": [
+        "• Depart from Port Blair to Havelock Island by ferry, one of the most beautiful destinations in India.",
+        "• Arrive in Havelock and check-in at the resort.",
+        "• After some rest, head to the famous Radhanagar Beach - one of Asia's best beaches.",
+        "• Explore the white sand beach and enjoy the natural beauty.",
+        "• Return to the resort for relaxation."
+      ]
+    },
+    {
+      "day": 3,
+      "description": [
+        "• Day at leisure to relax on the beachside.",
+        "• Optional activities: Scuba Diving, Sea Walk, or simply enjoy the serene beach atmosphere."
+      ]
+    },
+    {
+      "day": 4,
+      "description": [
+        "• Check out from the hotel and board a cruise to Neil Island.",
+        "• Arrive at Neil Island and check-in at your resort.",
+        "• After rest, visit Bharatpur Beach and Laxmanpur Beach, a secluded beach with stunning coral views.",
+        "• Witness the mesmerizing sunset at Laxmanpur Beach."
+      ]
+    },
+    {
+      "day": 5,
+      "description": [
+        "• Return by ferry to Port Blair in the morning.",
+        "• Upon arrival, check-in at the hotel.",
+        "• Evening shopping tour to buy local souvenirs and gifts for friends and family."
+      ]
+    },
+    {
+      "day": 6,
+      "description": [
+        "• Begin a city tour of Port Blair.",
+        "• Visit Chatham Saw Mill, one of the oldest sawmills in Asia.",
+        "• Explore the Anthropological Museum to learn about the indigenous tribes of the Andaman and Nicobar Islands.",
+        "• Visit the Fisheries Museum, which showcases the rich marine biodiversity of the region.",
+        "• End the tour with a visit to Cellular Jail, one of the most historical monuments of India, which once housed famous political prisoners like Veer Savarkar."
+      ]
+    },
+    {
+      "day": 7,
+      "description": [
+        "• After breakfast, transfer to the airport for your departure.",
+        "• Return home with sweet memories of the Andaman Islands."
+      ]
+    }
+  ],
+  "highlights": [
+    "• Cellular Jail Sound and Light Show, which narrates the heroic freedom struggle of India.",
+    "• Visit Radhanagar Beach, one of Asia's most beautiful beaches.",
+    "• Explore the serene and peaceful Bharatpur and Laxmanpur beaches on Neil Island.",
+    "• Discover the rich culture and history of the Andaman Islands at the Anthropological and Fisheries Museums.",
+    "• Visit the famous Cellular Jail and learn about the life of political prisoners like Veer Savarkar.",
+    "• Enjoy scenic ferry rides between Port Blair, Havelock, and Neil Island."
+  ],
+  "activities": [
+    "• Enjoy a relaxing day at Radhanagar Beach and Neil Island's secluded beaches.",
+    "• Optional activities like Scuba Diving and Sea Walk to explore underwater marine life.",
+    "• Explore the famous Cellular Jail and attend the Sound and Light Show.",
+    "• Shopping for local handicrafts and souvenirs in Port Blair.",
+    "• Experience the rich culture of the indigenous tribes at the Anthropological Museum.",
+    "• Scenic ferry rides between islands and enjoy the breathtaking views of the Andaman Sea."
+  ],
+  "inclusions": [
+    "• Accommodation at hotels in Port Blair, Havelock, and Neil on a double-sharing basis.",
+    "• Meet and greet service at the airport.",
+    "• All sightseeing by private AC vehicle at all islands.",
+    "• All side ferry tickets, including the cruises to Havelock and Neil islands.",
+    "• Full-day tours with all transfers, including airport pickup and drop.",
+    "• All entry tickets, ferry tickets, and permit charges.",
+    "• Breakfast at respective hotels.",
+    "• Parking charges.",
+    "• Travel assistance by Experience Andamans Travel Experts on all islands."
+  ],
+  "exclusions": [
+    "• Flight tickets are not included.",
+    "• Vehicle not at disposal at any of the islands.",
+    "• Other meals not mentioned in the itinerary, including lunch and dinner.",
+    "• Personal expenses such as laundry, telephone calls, and incidentals.",
+    "• Alcoholic and non-alcoholic beverages.",
+    "• Camera tickets are not included in the cost of sightseeing and transfers.",
+    "• Any extra excursions or sightseeing outside the itinerary.",
+    "• Room service and special orders.",
+    "• Any personal expenses."
+  ],
+  "thingsToCarry": [
+    "• Water Bottle (Re-usable, for hydration)",
+    "• Personal Medication / First Aid (Bandages, Dettol, etc.)",
+    "• Sunglasses / Reading Glasses (For eye protection)",
+    "• Charger (For electronic devices)",
+    "• Power Bank (For charging devices on the go)",
+    "• Personal Documents & IDs (Aadhar Card, Driver's License)"
+  ]
+  },
+  {
+    "id": "20",
+    "title": "Rann of Kutch White Desert",
+    "city": "Gujarat",
+    "distance": 400,
+    "address": "Kachchh, Gujarat",
+    "price": 10000,
+    "maxGroupSize": 20,
+    "desc": "unique landscape, rich cultural heritage, and diverse wildlife.",
+    "reviews": [],
+    "avgRating": 4.8,
+    "photo": "/tour-images/tour-img20.jpg",
+    "featured": true,
+    "itinerary": [
+      {
+        "day": 1,
+        "description": [
+          "• Proceed to Bhuj from Ahmedabad (370 km / 6.5 hrs).",
+          "• On arrival, visit Kutch Museum (closed on Wednesday/Public Holidays).",
+          "• Explore Swaminarayan Temple, Aina Mahal, and Prag Mahal (closed on Thursday).",
+          "• Optional visit to Sharad Baug Palace (closed on Friday).",
+          "• Overnight stay at the hotel in Bhuj."
+        ]
+      },
+      {
+        "day": 2,
+        "description": [
+          "• Visit local villages around Bhuj for handicrafts and traditional art.",
+          "• Proceed to Black Hill (Kala Dungar) for panoramic views.",
+          "• Explore White Rann desert and enjoy sunset views.",
+          "• Return to Bhuj for overnight stay at the hotel."
+        ]
+      },
+      {
+        "day": 3,
+        "description": [
+          "• Proceed to Bhirandiyara and visit Mata No Madh Temple.",
+          "• Continue to Lakhpat - explore the fort and ruins.",
+          "• Visit Narayan Sarovar and Koteshwar Temple - sacred pilgrimage sites.",
+          "• Return to Bhuj (total distance ~350 km / 6 hrs).",
+          "• Overnight stay at the hotel."
+        ]
+      },
+      {
+        "day": 4,
+        "description": [
+          "• Drive to Mandvi (100 km / 2 hrs).",
+          "• Visit Vijay Vilas Palace and Mandvi Beach.",
+          "• Explore the historic shipbuilding yard (optional).",
+          "• Return to Bhuj and overnight stay at the hotel."
+        ]
+      },
+      {
+        "day": 5,
+        "description": [
+          "• Drive back to Ahmedabad (400 km / 8 hrs).",
+          "• En route optional sightseeing if time permits.",
+          "• Tour ends with drop at Ahmedabad Railway Station or Airport."
+        ]
+      }
+    ],
+    "highlights": [
+      "• Heritage monuments: Aina Mahal, Prag Mahal, and Swaminarayan Temple.",
+      "• Cultural village visits and handicrafts in Bhuj region.",
+      "• Panoramic views from Kala Dungar (Black Hill).",
+      "• Stunning sunset over the White Rann salt desert.",
+      "• Sacred temples: Mata No Madh, Narayan Sarovar, and Koteshwar.",
+      "• Fort ruins and coastal sights in Lakhpat.",
+      "• Beach and royal palace visit in Mandvi."
+    ],
+    "activities": [
+      "• Museum visits and palace tours in Bhuj.",
+      "• Exploring local crafts and traditional Kutchi art.",
+      "• Sunset photography at White Rann.",
+      "• Temple visits and spiritual experiences.",
+      "• Beach walk and relaxation in Mandvi.",
+      "• Light trekking and panoramic view from Kala Dungar."
+    ],
+    "inclusions": [
+      "• Hotel accommodation on twin sharing basis.",
+      "• Daily breakfast at hotel.",
+      "• All transfers and sightseeing by private vehicle.",
+      "• Driver charges, tolls, and parking fees.",
+      "• Applicable taxes."
+    ],
+    "exclusions": [
+      "• Train/flight tickets.",
+      "• Entry fees to monuments and museums.",
+      "• Meals other than those mentioned.",
+      "• Personal expenses like tips, laundry, or phone calls.",
+      "• Anything not specifically mentioned in the inclusions."
+    ],
+    "thingsToCarry": [
+      "• Comfortable walking shoes and breathable clothes.",
+      "• Sunscreen, sunglasses, and a hat.",
+      "• Reusable water bottle and energy snacks.",
+      "• ID proof (Aadhar card, voter ID, etc.).",
+      "• Personal medication and first aid kit.",
+      "• Camera and phone charger/power bank."
+    ]
+  },
+  {
+    "id": "21",
+    "title": "Spiti Valley",
+    "city": "Himachal Pradesh",
+    "distance": 400,
+    "address": "Spiti Valley Marango Rangarik, Himachal Pradesh",
+    "price": 17500,
+    "maxGroupSize": 20,
+    "desc": "a high-altitude cold desert mountain valley located in the northeastern part of Himachal Pradesh, known for its unique landscapes, ancient monasteries, and Tibetan-influenced culture.",
+    "reviews": [],
+    "avgRating": 4.8,
+    "photo": "/tour-images/tour-img21.jpg",
+    "featured": true,
+    "itinerary": [
+    {
+      "day": 1,
+      "description": [
+        "• Boarding Point: Sabarmati BG Railway Station",
+        "• Reporting Time: 09:00 AM",
+        "• Kickstart your adventure with an overnight train journey from Ahmedabad to Chandigarh, passing through Gujarat, Rajasthan, and Haryana.",
+        "• Enjoy scenic views, bond with fellow travelers through fun activities, and soak in the local flavors at stops like Abu Road and Jaipur.",
+        "• Please note that if you have a connecting train from any station in Ahmedabad or Gandhinagar to Surat, Baroda, Mumbai, or Pune inter-station transfers are not included in our package."
+      ]
+    },
+    {
+      "day": 2,
+      "description": [
+        "• Arrival in Chandigarh - 8:00 AM",
+        "• Reach Chandigarh Railway Station in the early morning.",
+        "• Depart for Shimla by Traveler/Taxi, enjoying the scenic drive.",
+        "• Explore Shimla's famous Mall Road and shop for souvenirs.",
+        "• Experience the lively nightlife at Shimla's cafés and markets.",
+        "• Stay: Hotel in Shimla"
+      ]
+    },
+    {
+      "day": 3,
+      "description": [
+        "• Shimla to Chitkul - The Ultimate Road Trip",
+        "• Kickstart an adventurous morning road trip from Shimla.",
+        "• Drive through the stunning landscapes of Kinnaur Valley.",
+        "• Visit Chitkul, the last village on the old Hindustan-Tibet trade route.",
+        "• Stay: Cottage in Chitkul/Kalpa",
+        "• Food: Breakfast, Dinner Included"
+      ]
+    },
+    {
+      "day": 4,
+      "description": [
+        "• Chitkul to Tabo - A Scenic Himalayan Drive",
+        "• Begin the journey from Chitkul, experiencing the serene village life.",
+        "• Drive along the India-Tibet border, passing through Khab, the confluence of the Spiti & Sutlej Rivers.",
+        "• Stop by the beautiful Nako Lake for a peaceful retreat.",
+        "• Stay: Homestay in Tabo",
+        "• Food: Breakfast, Dinner Included"
+      ]
+    },
+    {
+      "day": 5,
+      "description": [
+        "• Tabo to Kaza - Exploring Ancient Monasteries & Scenic Villages",
+        "• Visit the 1000-year-old Tabo Monastery, known for its ancient wall paintings and mud statues.",
+        "• Witness a breathtaking 360° sky view from Tabo.",
+        "• Explore Dhankar Village & Gompa, perched on a cliff with stunning valley views.",
+        "• Travel to Kaza, the headquarters of Spiti Valley.",
+        "• Stroll through Kaza Market, soaking in the local vibes.",
+        "• Stay: Homestay in Kaza",
+        "• Food: Breakfast, Dinner Included"
+      ]
+    },
+    {
+      "day": 6,
+      "description": [
+        "• Exploring the Wonders of Spiti Valley",
+        "• Visit Key Monastery, the largest Tibetan Buddhist monastery in Spiti, known for its murals, manuscripts, and spiritual aura.",
+        "• Explore Komic, the world's highest motorable village (15,050 ft), and its ancient Komic Gompa.",
+        "• Witness the majestic Buddha Statue at Langza (14,300 ft) and discover fossils from an ancient seabed.",
+        "• Send a postcard from Hikkim, home to the world's highest post office (14,400 ft).",
+        "• Stay: Homestay in Kaza",
+        "• Food: Breakfast, Dinner Included"
+      ]
+    },
+    {
+      "day": 7,
+      "description": [
+        "• Spiti Valley to Chandra Taal - A Journey to the Moon Lake",
+        "• Visit Kibber, a stunning high-altitude village known for its barren beauty and monasteries.",
+        "• Cross the Chicham Bridge, the highest bridge in Asia, offering breathtaking views.",
+        "• Travel to Chandra Taal, the mesmerizing 'Moon Lake' on the Samudra Tapu plateau.",
+        "• Overnight stay at Chandra Taal Camp.",
+        "• Note: Chandra Taal Lake usually opens by late May or June. If inaccessible, we stay in Kaza and reroute via Kalpa and Shimla.",
+        "• Stay: Swiss Tent in Chandratal",
+        "• Food: Breakfast, Dinner Included"
+      ]
+    },
+    {
+      "day": 8,
+      "description": [
+        "• Chandra Taal to Manali - A Thrilling Journey",
+        "• Start the morning with a visit to the stunning Chandra Taal Lake.",
+        "• Travel to Manali via Chhatru, experiencing one of the world's most thrilling and scenic routes.",
+        "• Pass through the famous Atal Tunnel and explore the breathtaking Solang Valley.",
+        "• Stay: Homestay/Tent in Manali",
+        "• Food: Breakfast, Dinner Included"
+      ]
+    },
+    {
+      "day": 9,
+      "description": [
+        "• Manali Adventure & Sightseeing",
+        "• Kickstart the day with thrilling adventure activities like paragliding and river rafting.",
+        "• Explore Manali's iconic spots, including Hadimba Devi Temple, Mall Road Market, and the charming Old Manali area.",
+        "• Food: Breakfast Included"
+      ]
+    },
+    {
+      "day": 10,
+      "description": [
+        "• Departure from Manali & Return Journey",
+        "• Depart for Chandigarh early morning to catch the return train.",
+        "• Boarding Point: Chandigarh Station | Train Time: 05:55 PM.",
+        "• Enjoy the overnight journey back to Ahmedabad with new friends, memories, and thrilling experiences.",
+        "• Share your photos, videos, and stories, and engage in fun activities on the way home."
+      ]
+    },
+    {
+      "day": 11,
+      "description": [
+        "• Arrival in Ahmedabad - Journey Concludes",
+        "• Enjoy the famous Rabdi & Chaat as the train passes through Rajasthan in the morning.",
+        "• Arrive at Sabarmati BG, Ahmedabad at 03:10 PM.",
+        "• Time to bid farewell, cherish the memories, and conclude this incredible journey!"
+      ]
+    }
+  ],
+  "inclusions": [
+    "• All transfers by Tempo Traveller/Taxi",
+    "• Round trip train tickets",
+    "• Comfortable stays in hotel/tents/Homestays on 3 & 4 sharing",
+    "• Bonfire, Music Party at Manali",
+    "• Trekking in Himalayas",
+    "• Veg food Breakfast & dinner as mentioned",
+    "• All sightseeing mentioned in itinerary",
+    "• Trip Captain",
+    "• 24*7 Support throughout trip",
+    "• Sightseeing & 'Dher Saari Masti'",
+    "• Toll, Parking and Transport Taxes",
+    "• Oxygen Support with oxymeter"
+  ],
+  "exclusions": [
+    "• Personal Expenses",
+    "• Any cost arising due to natural calamities like landslides, road blocks etc. to be borne by the client directly on the spot",
+    "• Paragliding, Heater Charges, Tips, Pony Rides, Entry fee, snow suit rents, adventure activities at solang valley, 4*4 Vehicle",
+    "• Personal Expense of any kind, anything not specifically mentioned under the head 'Includes'",
+    "• Any additional meals or stays other than mentioned in itinerary",
+    "• Inter railway station transfers are not included",
+    "• 5% GST"
+  ],
+  "highlights": [
+    "• Visit remote villages like Chitkul, and Tabo, where ancient monasteries and traditional lifestyles offer a glimpse into local culture.",
+    "• Marvel at the majestic Dhankar Monastery perched on a cliff and soak in the surreal landscapes of Hikkim, Komic, Langza, and Kibber in Kaza.",
+    "• Experience the tranquil beauty of Chandrataal Lake, surrounded by snow-capped mountains and pristine landscapes.",
+    "• Enjoy self-exploration in the vibrant town of Manali, known for its adventure activities, bustling markets, and picturesque surroundings."
+  ],
+  "activities": [
+    "• Snow Trekking",
+    "• Rafting",
+    "• Paragliding",
+    "• Trekking",
+    "• Sightseeing",
+    "• Bonfire",
+    "• Adventure Activities"
+  ],
+  "thingsToCarry": [
+    "• 5 pairs of full sleeve cloths (T-shirts + Trousers)",
+    "• Warm clothing",
+    "• Gloves",
+    "• Woolen cap",
+    "• Jacket",
+    "• Full Socks",
+    "• Thermal inner",
+    "• Raincoat or Umbrella",
+    "• Rucksack & Small BackPack",
+    "• Trekking/Sport shoes with good rubber sole",
+    "• Sun cap/hat",
+    "• Goggles",
+    "• Torch",
+    "• Powerbank",
+    "• Cold cream, Facewash",
+    "• Anti-sunburn cream",
+    "• 2 water bottles",
+    "• TrekkingStick (optional)",
+    "• Lunch box",
+    "• Personal medicines",
+    "• Personal sanitary items",
+    "• Original Identity Proof (Must)",
+    "• Soft copy/Screenshot of Fees receipt or Confirmation Mail",
+    "• Bedding For Travel",
+    "• Snacks and Water Bottle"
+  ]
+  }
+]
