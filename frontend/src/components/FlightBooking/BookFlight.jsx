@@ -1,9 +1,8 @@
 import React from "react";
-import { useLocation, useNavigate } from "react-router-dom";
+import { useNavigate } from "react-router-dom";
 import { Button } from "reactstrap";
 
 const BookFlight = () => {
-  const location = useLocation();
   const navigate = useNavigate();
   const storedFlight = localStorage.getItem("selectedFlight");
   const flight = storedFlight ? JSON.parse(storedFlight) : null;

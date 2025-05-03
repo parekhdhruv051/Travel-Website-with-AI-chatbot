@@ -1,7 +1,6 @@
 import React, { useState } from "react";
 import axios from "axios";
 import { Row, Col, Button, Form, FormGroup, Input, Label } from "reactstrap";
-import { useNavigate } from "react-router-dom";
 import "./FlightBooking.css";
 
 const FlightBooking = () => {
@@ -13,8 +12,6 @@ const FlightBooking = () => {
   const [flightResults, setFlightResults] = useState([]);
   const [error, setError] = useState(null);
   const [showResults, setShowResults] = useState(false);
-
-  const navigate = useNavigate();
 
   const handleSearchFlights = async () => {
     try {

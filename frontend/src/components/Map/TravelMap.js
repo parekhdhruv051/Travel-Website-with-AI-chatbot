@@ -40,6 +40,7 @@ const TravelMap = () => {
       {/* Embedded Map */}
       <div style={{ marginTop: "30px" }}>
         <iframe
+          title="Location Map"
           width="100%"
           height="450"
           style={{ border: 0 }}

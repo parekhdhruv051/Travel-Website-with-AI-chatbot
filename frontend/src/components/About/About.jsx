@@ -1,4 +1,4 @@
-import React,{useEffect} from 'react';
+import React from 'react';
 import { Container, Row, Col } from 'reactstrap';
 import aboutImage from '../../assets/images/about-image.jpg';  // Add your image path here
 import "./about.css";
