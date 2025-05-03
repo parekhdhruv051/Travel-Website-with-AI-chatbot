@@ -55,7 +55,7 @@ app.use('/api/v1/tours', tourRoute);
 app.use('/api/v1/users', userRoute);
 app.use('/api/v1/review', reviewRoute);
 app.use('/api/v1/booking', bookingRoute);
-app.use('/api', serpapiRoute);
+app.use('/api/flights', serpapiRoute);
 app.use('/api/chat', chatRoute);
 
 if (process.env.NODE_ENV === "production") {

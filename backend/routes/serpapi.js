@@ -5,7 +5,7 @@ import dotenv from "dotenv";
 dotenv.config();
 const router = express.Router();
 
-router.get('/flights', async (req, res) => {
+router.get('/', async (req, res) => {
   const {
     departure_id,
     arrival_id,
