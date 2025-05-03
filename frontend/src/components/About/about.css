@@ -1,0 +1,20 @@
+.about-section {
+    padding: 60px 0;
+}
+  
+.about-section img {
+    width: 100%;
+    height: auto;
+    border-radius: 10px;
+}
+  
+.about-section h2 {
+    font-size: 2.5rem;
+    margin-bottom: 20px;
+}
+  
+.about-section p {
+    font-size: 1.1rem;
+    line-height: 1.6;
+ }
+  

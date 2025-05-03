@@ -1,0 +1,115 @@
+/* General Styling */
+.flight-booking-container {
+    max-width: 1200px;
+    margin: auto;
+    padding: 20px;
+    font-family: 'Segoe UI', Tahoma, Geneva, sans-serif;
+    background-color: #f9f9f9;
+  }
+  
+  /* Title Styling */
+  .booking-title, .results-title {
+    font-size: 1.8rem;
+    font-weight: 700;
+    color: #1f2d3d;
+    border-left: 5px solid #007bff;
+    padding-left: 10px;
+  }
+  
+  /* Form Input Fields */
+  .search-form .form-input {
+    border-radius: 8px;
+    padding: 10px;
+    font-size: 1rem;
+    border: 1px solid #ced4da;
+    transition: border-color 0.3s ease;
+  }
+  
+  .search-form .form-input:focus {
+    border-color: #007bff;
+  }
+  
+  /* Buttons */
+  button {
+    padding: 10px 14px;
+    font-size: 1rem;
+    font-weight: 600;
+    border-radius: 8px;
+    transition: transform 0.2s, background-color 0.3s ease;
+  }
+  
+  button:hover {
+    transform: translateY(-2px);
+  }
+  
+  .search-btn {
+    background-color: #007bff;
+    color: white;
+    border: none;
+  }
+  
+  .search-btn:hover {
+    background-color: #0056b3;
+  }
+  
+  .back-btn, .book-btn {
+    background-color: #6c757d;
+    color: white;
+    border: none;
+  }
+  
+  .back-btn:hover, .book-btn:hover {
+    background-color: #5a6268;
+  }
+  
+  /* Error Message */
+  .error-message {
+    color: #dc3545;
+    margin-top: 10px;
+    font-weight: 600;
+  }
+  
+  /* Flight Results */
+  .results-header {
+    margin-bottom: 20px;
+    padding-bottom: 10px;
+    border-bottom: 2px solid #dee2e6;
+  }
+  
+  .no-results {
+    color: #6c757d;
+    font-style: italic;
+  }
+  
+  /* Flight Card */
+  .flight-card {
+    border: 1px solid #dee2e6;
+    border-radius: 12px;
+    padding: 20px;
+    box-shadow: 0 2px 6px rgba(0, 0, 0, 0.1);
+    transition: transform 0.2s ease, box-shadow 0.2s ease;
+  }
+  
+  .flight-card:hover {
+    transform: translateY(-5px);
+    box-shadow: 0 5px 10px rgba(0, 0, 0, 0.1);
+  }
+  
+  .flight-info p {
+    margin: 5px 0;
+    color: #495057;
+    font-size: 0.95rem;
+  }
+  
+  /* Responsive Styles */
+  @media (max-width: 768px) {
+    .booking-title, .results-title {
+      font-size: 1.6rem;
+    }
+  
+    .flight-card {
+      padding: 15px;
+    }
+  }
+
+  
