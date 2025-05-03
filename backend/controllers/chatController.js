@@ -1,7 +1,7 @@
 // controllers/chatController.js
 import { OpenAI } from "openai";
 import axios from "axios";
-import Tour from "../models/Tour.js";
+import Tour from "../Models/Tour.js";
 import translate from "@vitalets/google-translate-api";
 
 const openai = new OpenAI({
