@@ -89,30 +89,42 @@ const TourDetails = () => {
     setToggles(prev => ({ ...prev, [section]: !prev[section] }));
   };
 
-  const submitHandler = async e => {
+  const submitHandler = async (e) => {
     e.preventDefault();
     const reviewText = reviewMsgRef.current.value;
-    if (!user) return alert('Please sign in');
-
+  
+    if (!user) {
+      return alert('Please sign in');
+    }
+    if (!tourRating) {
+      return alert('Please provide a rating');
+    }
+  
     try {
       const res = await fetch(`${BASE_URL}/review/${id}`, {
         method: 'POST',
-        headers: { 'content-type': 'application/json' },
+        headers: {
+          'Content-Type': 'application/json',
+        },
         credentials: 'include',
         body: JSON.stringify({
           username: user.username,
           reviewText,
-          rating: tourRating
-        })
+          rating: tourRating,
+        }),
       });
-
+  
       const result = await res.json();
-      if (!res.ok) return alert(result.message);
+      if (!res.ok) {
+        return alert(result.message);
+      }
+  
       alert(result.message);
     } catch (err) {
-      alert(err.message);
+      alert('Error submitting review: ' + err.message);
     }
   };
+  
 
   return (
     <>
