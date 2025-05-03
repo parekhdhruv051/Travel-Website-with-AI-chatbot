@@ -7,6 +7,7 @@
     "scripts": {
       "start": "cross-env NODE_ENV=production node backend/index.js",
       "dev": "cross-env NODE_ENV=development nodemon backend/index.js",
+      "buid": "npm run build",
       "build": "npm install && npm install --prefix frontend && npm run build --prefix frontend"
     },
     "keywords": [],
