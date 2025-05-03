@@ -30,6 +30,7 @@
         "mongoose": "^8.13.2",
         "natural": "^8.0.1",
         "openai": "^4.97.0",
+        "path-to-regexp": "^8.2.0",
         "paytmchecksum": "^1.5.1",
         "strip": "^3.0.0"
     },
