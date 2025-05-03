@@ -20,8 +20,8 @@ import chatRoute from './routes/chatRoutes.js';
 dotenv.config();
 const app = express();
 const port = process.env.PORT || 5000;
+
 const __dirname = path.dirname(fileURLToPath(import.meta.url));
-const frontendPath = path.resolve(__dirname, '../frontend/build');
 
 // ✅ MongoDB Connection
 mongoose.set('strictQuery', false);
@@ -58,11 +58,11 @@ app.use('/api/v1/booking', bookingRoute);
 app.use('/api', serpapiRoute);
 app.use('/api/chat', chatRoute);
 
-app.use(express.static(frontendPath));
+app.use(express.static(path.join(__dirname, "../frontend/build")));
 
-app.get('*', (req, res) => {
-  res.sendFile(path.resolve(frontendPath, 'index.html'));
-});
+  app.get("*", (req, res) => {
+    res.sendFile(path.resolve(__dirname, "../frontend/build", "index.html"));
+  });
 
 
 // ✅ Default route
