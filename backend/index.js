@@ -53,6 +53,7 @@ app.use('/tour-images', express.static('images'));
 app.use('/api/v1/auth', authRoute);
 app.use('/api/v1/tours', tourRoute);
 app.use('/api/v1/users', userRoute);
+console.log('✅ Review route registered');
 app.use('/api/v1/review', reviewRoute);
 app.use('/api/v1/booking', bookingRoute);
 app.use('/api/flights', serpapiRoute);

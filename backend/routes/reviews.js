@@ -26,4 +26,7 @@ router.post('/:tourId', verifyUser, async (req, res) => {
   }
 });
 
+console.log('🧭 reviews.js route loaded');
+
+
 export default router;
