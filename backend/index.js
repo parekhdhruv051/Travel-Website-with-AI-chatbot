@@ -4,6 +4,8 @@ import mongoose from 'mongoose';
 import cors from 'cors';
 import cookieParser from 'cookie-parser';
 import bodyParser from 'body-parser'; // ✅ imported
+import path from 'path';
+import { fileURLToPath } from 'url';
 
 // Import routes
 import tourRoute from './routes/tours.js';
@@ -18,6 +20,8 @@ import chatRoute from './routes/chatRoutes.js';
 dotenv.config();
 const app = express();
 const port = process.env.PORT || 5000;
+const __filename = fileURLToPath(import.meta.url);
+const __dirname = path.dirname(__filename);
 
 // ✅ MongoDB Connection
 mongoose.set('strictQuery', false);
@@ -53,6 +57,13 @@ app.use('/api/v1/review', reviewRoute);
 app.use('/api/v1/booking', bookingRoute);
 app.use('/api', serpapiRoute);
 app.use('/api/chat', chatRoute);
+
+// Serve frontend build folder
+app.use(express.static(path.join(__dirname, '..', 'frontend', 'build')));
+
+app.get('*', (req, res) => {
+  res.sendFile(path.resolve(__dirname, '..', 'frontend', 'build', 'index.html'));
+});
 
 
 // ✅ Default route
