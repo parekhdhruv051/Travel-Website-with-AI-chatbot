@@ -1,38 +1,38 @@
-{
-  "name": "backend",
-  "version": "1.0.0",
-  "description": "",
-  "type": "module",
-  "main": "index.js",
-  "scripts": {
-    "start": "cross-env NODE_ENV=production node backend/index.js",
-    "dev": "cross-env NODE_ENV=development nodemon backend/index.js",
-    "build": "npm install && npm install --prefix frontend && npm run build --prefix frontend"
-  },
-  "keywords": [],
-  "author": "",
-  "license": "ISC",
-  "dependencies": {
-    "@azure-rest/ai-inference": "^1.0.0-beta.6",
-    "@azure/core-auth": "^1.9.0",
-    "@vitalets/google-translate-api": "^9.2.1",
-    "axios": "^1.9.0",
-    "bcrypt": "^5.1.1",
-    "bcryptjs": "^3.0.2",
-    "cookie-parser": "^1.4.7",
-    "cors": "^2.8.5",
-    "cross-env": "^7.0.3",
-    "dotenv": "^16.4.7",
-    "express": "^5.1.0",
-    "jsonwebtoken": "^9.0.2",
-    "mongodb": "^6.15.0",
-    "mongoose": "^8.13.2",
-    "natural": "^8.0.1",
-    "openai": "^4.97.0",
-    "paytmchecksum": "^1.5.1",
-    "strip": "^3.0.0"
-  },
-  "devDependencies": {
-    "nodemon": "^3.1.9"
+  {
+    "name": "backend",
+    "version": "1.0.0",
+    "description": "",
+    "type": "module",
+    "main": "index.js",
+    "scripts": {
+      "start": "cross-env NODE_ENV=production node backend/index.js",
+      "dev": "cross-env NODE_ENV=development nodemon backend/index.js",
+      "build": "npm install && npm install --prefix frontend && npm run build --prefix frontend"
+    },
+    "keywords": [],
+    "author": "",
+    "license": "ISC",
+    "dependencies": {
+      "@azure-rest/ai-inference": "^1.0.0-beta.6",
+      "@azure/core-auth": "^1.9.0",
+      "@vitalets/google-translate-api": "^9.2.1",
+      "axios": "^1.9.0",
+      "bcrypt": "^5.1.1",
+      "bcryptjs": "^3.0.2",
+      "cookie-parser": "^1.4.7",
+      "cors": "^2.8.5",
+      "cross-env": "^7.0.3",
+      "dotenv": "^16.4.7",
+      "express": "^5.1.0",
+      "jsonwebtoken": "^9.0.2",
+      "mongodb": "^6.15.0",
+      "mongoose": "^8.13.2",
+      "natural": "^8.0.1",
+      "openai": "^4.97.0",
+      "paytmchecksum": "^1.5.1",
+      "strip": "^3.0.0"
+    },
+    "devDependencies": {
+      "nodemon": "^3.1.9"
+    }
   }
-}
