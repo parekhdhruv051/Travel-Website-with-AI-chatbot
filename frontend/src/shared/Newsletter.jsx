@@ -16,12 +16,12 @@ const Newsletter = () => {
 
     // Step 2: Then send the email in the background
     emailjs
-      .sendForm(
-        "service_rdx12dm",
-        "template_fulsku9",
-        form.current,
-        "nCKHYec0gN2N_khYL"
-      )
+    .sendForm(
+      "service_81dbj3g",
+      "template_fulsku9",
+      form.current,
+      "Uk92ZDGm17PKpu5c1"
+    )
       .then(
         (result) => {
           console.log(result.text);
