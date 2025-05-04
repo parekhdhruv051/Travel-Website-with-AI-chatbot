@@ -1,7 +1,7 @@
 // frontend/src/api/chatApi.js
 import axios from 'axios';
 
-const API_URL = 'http://localhost:4000/api/chat';
+const API_URL = 'https://travel-website-with-ai-chatbot-production.up.railway.app/api/chat';
 
 export const sendMessageToBot = async (userMessage) => {
   try {
