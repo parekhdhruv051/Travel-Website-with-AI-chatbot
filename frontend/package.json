@@ -2,7 +2,7 @@
   "name": "demoapp",
   "version": "0.1.0",
   "private": true,
-  "proxy": "http://localhost:4000",
+  "proxy": "http://travel-website-with-ai-chatbot-production.up.railway.app",
   "dependencies": {
     "@google-pay/button-react": "^3.1.0",
     "@testing-library/dom": "^10.4.0",
