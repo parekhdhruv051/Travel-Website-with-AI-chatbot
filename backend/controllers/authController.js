@@ -57,7 +57,7 @@ import jwt from 'jsonwebtoken';
   
       // Generate token with JWT
       const token = jwt.sign(
-        { id: user._id, role: user.role },
+        { id: user._id, role: user.role, username: user.username },
         process.env.JWT_SECRET_KEY,
         { expiresIn: '15d' }
       );

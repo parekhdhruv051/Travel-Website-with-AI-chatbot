@@ -1,11 +1,11 @@
 import express from 'express';
 import { createReview } from '../controllers/reviewController.js';
-import { verifyUser } from '../utils/verifyToken.js';
+import { verifyToken } from '../utils/verifyToken.js';
 
 const router = express.Router();
 
 // Post route to create a review for a specific tour
-router.post('/:tourId', verifyUser, async (req, res) => {
+router.post('/:tourId', verifyToken, async (req, res) => {
   const { tourId } = req.params; // Extract tourId from the URL parameters
 
   // Check if tourId is valid
