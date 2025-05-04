@@ -16,7 +16,7 @@ const router = express.Router();
 
     router.get('/:id', verifyUser, getSingleUser);
 
-    // router.get('/', verifyAdmin, getAllUser);
+    router.get('/', verifyAdmin, getAllUser);
 
     
     console.log('✅ users.js route loaded');
