@@ -18,4 +18,7 @@ const router = express.Router();
 
     router.get('/', verifyAdmin, getAllUser);
 
+    
+    console.log('✅ users.js route loaded');
+
 export default router;

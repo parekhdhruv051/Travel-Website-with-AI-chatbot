@@ -21,4 +21,5 @@
 
     router.get('/search/getTourCount', getTourCount);
 
+    console.log('✅ tours.js route loaded');
     export default router;

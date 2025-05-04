@@ -9,4 +9,7 @@ router.post('/', verifyUser, createBooking);
 router.get('/:id', verifyUser, getBooking);
 router.get('/', verifyAdmin, getAllBooking);
 
+
+console.log('✅ bookings.js route loaded');
+
 export default router; 

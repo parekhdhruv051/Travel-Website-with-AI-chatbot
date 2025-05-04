@@ -7,4 +7,7 @@ const router = express.Router();
 
  router.post('/login', login);
 
+ 
+console.log('✅ auth.js route loaded');
+
 export default router;

@@ -77,4 +77,7 @@ router.get('/', async (req, res) => {
   }
 });
 
+
+console.log('✅ serpapi.js route loaded');
+
 export default router;
