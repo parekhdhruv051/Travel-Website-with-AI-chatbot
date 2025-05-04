@@ -40,7 +40,7 @@ const connect = async () => {
 // ✅ Middlewares
 app.use(express.json());
 app.use(cors({
-  origin: ['http://localhost:3000', 'https://your-frontend-url.com'], // Update frontend URL
+  origin: ['http://localhost:3000', 'https://travel-website-with-ai-chatbot-production.up.railway.app'], // Update frontend URL
   credentials: true
 }));
 app.use(cookieParser());
