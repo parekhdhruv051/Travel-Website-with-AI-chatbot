@@ -3,10 +3,11 @@ import dotenv from 'dotenv';
 import mongoose from 'mongoose';
 import cors from 'cors';
 import cookieParser from 'cookie-parser';
-import bodyParser from 'body-parser';
+import bodyParser from 'body-parser'; // ✅ imported
 import path from 'path';
 import { fileURLToPath } from 'url';
 
+// Import routes
 import tourRoute from './routes/tours.js';
 import userRoute from './routes/users.js';
 import authRoute from './routes/auth.js';
@@ -15,9 +16,11 @@ import bookingRoute from './routes/bookings.js';
 import serpapiRoute from './routes/serpapi.js';
 import chatRoute from './routes/chatRoutes.js';
 
+// Load environment variables
 dotenv.config();
 const app = express();
 const port = process.env.PORT || 5000;
+
 const __dirname = path.dirname(fileURLToPath(import.meta.url));
 
 // ✅ MongoDB Connection
@@ -26,7 +29,7 @@ const connect = async () => {
   try {
     await mongoose.connect(process.env.MONGO_URI, {
       useNewUrlParser: true,
-      useUnifiedTopology: true,
+      useUnifiedTopology: true
     });
     console.log('✅ MongoDB connected');
   } catch (err) {
@@ -37,51 +40,35 @@ const connect = async () => {
 // ✅ Middlewares
 app.use(express.json());
 app.use(cors({
-  origin: ['http://localhost:3000', 'https://your-frontend-url.com'], // Replace with real frontend URL
-  credentials: true,
+  origin: ['http://localhost:3000', 'https://your-frontend-url.com'], // Update frontend URL
+  credentials: true
 }));
 app.use(cookieParser());
 app.use(bodyParser.json());
 
 // ✅ Static Images
-app.use('/tour-images', express.static(path.join(__dirname, 'images')));
+app.use('/tour-images', express.static('images'));
 
-// ✅ Safe Route Mounting with Logs
-const safeMount = (routePath, handler, name) => {
-  try {
-    if (!handler) throw new Error(`${name} route is undefined`);
-    app.use(routePath, handler);
-    console.log(`✅ ${name} route mounted at ${routePath}`);
-  } catch (err) {
-    console.error(`❌ Failed to mount ${name} route at ${routePath}:`, err.message);
-  }
-};
+// ✅ Routes
+app.use('/api/v1/auth', authRoute);
+app.use('/api/v1/tours', tourRoute);
+app.use('/api/v1/users', userRoute);  
+app.use('/api/v1/review', reviewRoute);
+app.use('/api/v1/booking', bookingRoute);
+app.use('/api/flights', serpapiRoute);
+app.use('/api/chat', chatRoute);
 
-safeMount('/api/v1/auth', authRoute, 'auth');
-safeMount('/api/v1/tours', tourRoute, 'tours');
-safeMount('/api/v1/users', userRoute, 'users');
-safeMount('/api/v1/review', reviewRoute, 'reviews');
-safeMount('/api/v1/booking', bookingRoute, 'bookings');
-safeMount('/api/flights', serpapiRoute, 'serpapi');
-safeMount('/api/chat', chatRoute, 'chat');
+if (process.env.NODE_ENV === "production") {
+  app.use(express.static(path.join(__dirname, "../frontend/build")));
 
-// ✅ Serve frontend in production
-if (process.env.NODE_ENV === 'production') {
-  app.use(express.static(path.join(__dirname, '../frontend/build')));
-
-  app.get('*', (req, res) => {
-    res.sendFile(path.resolve(__dirname, '../frontend/build', 'index.html'));
+  app.get("*", (req, res) => {
+    res.sendFile(path.resolve(__dirname, "../frontend/build", "index.html"));
   });
 }
 
-// ✅ Default API Health Check
+// ✅ Default route
 app.get('/', (req, res) => {
   res.send('✅ Backend server is up and running!');
-});
-
-// ✅ Catch-All 404 Handler
-app.use('*', (req, res) => {
-  res.status(404).json({ success: false, message: 'Route not found' });
 });
 
 // ✅ Start server
